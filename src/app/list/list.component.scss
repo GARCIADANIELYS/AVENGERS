@@ -1,0 +1,49 @@
+ul{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    color: antiquewhite;
+    border-top: 3px #7072cf20 solid;
+    
+    li{
+        padding: 7px;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    img{
+        width: 200px;
+        height: auto;
+        border: white 2px solid;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+}
+
+.on{
+    border: 3px greenyellow solid;
+    border-radius: 5px;
+    color: rgb(216, 247, 170);
+    img{
+        width: 180px;
+        height: auto;
+        border: white 2px solid;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+}
+
+p{
+    color: antiquewhite;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}

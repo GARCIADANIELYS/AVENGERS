@@ -1,0 +1,14 @@
+div{
+    color: antiquewhite;
+    margin-top: 60px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    li:hover {
+        color: #e7e7f2;
+      }
+}

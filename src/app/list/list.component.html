@@ -1,0 +1,9 @@
+<ul>
+    <li [ngClass]="{on: avenger.isActive, off: !avenger.isActive}" *ngFor="let avenger of avengers; let index = index">
+        <h2>{{avenger.hero}}</h2>
+        <img (click)="activeItem(index)" src="{{avenger.img}}" alt="{{avenger.name}}">
+        <p>{{avenger.name}}</p>
+    </li>
+</ul>
+
+<p>¡En la lista hay {{activeElements}} elementos activos!</p>
